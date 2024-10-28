@@ -4246,3 +4246,19 @@ padding-bottom: 16px;
     display: none;
   }
 }
+@media (max-width: 492px) {
+	.card_five_wrapper {
+		min-height: inherit;
+		text-align: left;
+		margin-bottom: 0px !important;
+		min-height: 10px;
+		padding: 20px;
+	}
+	.card_five_wrapper img {
+		float: left;
+		width: 15%;
+	}
+	.section_heading_four {
+    margin-bottom: 10px;
+	}
+}
