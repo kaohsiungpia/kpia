@@ -1,0 +1,21 @@
+﻿/* Latest news photos: keep cards even and preserve full gallery photos. */
+.case_boxed_four_img img.news-card-photo,
+.volunteer_img img.news-card-photo {
+    width: 100%;
+    height: 252px;
+    min-height: 0;
+    object-fit: cover;
+}
+
+.news-gallery .gallery_item > img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    max-height: none;
+    object-fit: contain;
+    background-color: #f7f7f7;
+}
+
+.news-gallery .gallery_item:focus-within .gallery_overlay {
+    opacity: 1;
+    visibility: visible;
+}
